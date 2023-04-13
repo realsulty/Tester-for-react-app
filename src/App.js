@@ -1,16 +1,13 @@
-
-
-// This is called the app component // 
-function App(){
+import Header from "./components/Header"
+import FeedbackItem from "./components/Feedbackitem"
+function App(){   
     return (
-         
-        <div className="container"> 
-            
-        <h1>My App</h1>
-        <p>New world order</p>
-        </div>
-
-
+    <> 
+    <Header/>
+       <div className="container"> 
+         <FeedbackItem />
+       </div>
+    </>
         )
 }
 export default App 
