@@ -3,7 +3,7 @@ function FeedbackItem() {
     <div className="card">
       <div className="num-display">10</div>
       <div className="text-display">
-        Whaat Upp !</div>
+        This is An Example of the JSX ! </div>
     </div>
   )
 }
